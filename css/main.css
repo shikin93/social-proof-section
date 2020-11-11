@@ -104,7 +104,7 @@ body {
 }
 
 /* tablet monitor*/
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1280px) {
   body {
     border: 1px solid black;
     background: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
@@ -112,7 +112,7 @@ body {
     background-position: top left, bottom right;
   }
   .flex-container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -135,6 +135,7 @@ body {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+    margin-left: 8em;
   }
   .main__rating .flex-report {
     display: -webkit-box;
@@ -143,6 +144,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-left: 8em;
   }
   .main__rating .flex-best {
     display: -webkit-box;
@@ -174,7 +176,7 @@ body {
   }
   .flex-testimoni {
     height: 32vh;
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: -ms-grid;
     display: grid;

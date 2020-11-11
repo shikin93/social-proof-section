@@ -110,7 +110,7 @@ body {
 }
 
 /* tablet monitor*/
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1280px) {
   body {
     border: 1px solid black;
     background: url(../images/bg-pattern-top-desktop.svg),
@@ -121,7 +121,7 @@ body {
 
   .flex-container {
     // border: 1px solid black;
-    width: 80%;
+    width: 90%;
     margin: auto;
 
     display: flex;
@@ -141,10 +141,12 @@ body {
     .flex-reviews {
       display: flex;
       justify-content: start;
+      margin-left: 8em;
     }
     .flex-report {
       display: flex;
       justify-content: center;
+      margin-left: 8em;
     }
     .flex-best {
       display: flex;
@@ -174,7 +176,7 @@ body {
   .flex-testimoni {
     // border: 1px solid black;
     height: 32vh;
-    width: 80%;
+    width: 90%;
     margin: auto;
 
     display: grid;
