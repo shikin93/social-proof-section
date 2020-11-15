@@ -15,7 +15,7 @@ body {
 
 /* Main */
 .main {
-  width: 90%;
+  max-width: 90%;
   margin: 5em auto;
   /* Main heading */
 }
@@ -112,7 +112,7 @@ body {
     background-position: top left, bottom right;
   }
   .flex-container {
-    width: 90%;
+    max-width: 90%;
     margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,7 +120,7 @@ body {
   }
   .main__heading {
     text-align: left;
-    width: 40%;
+    max-width: 40%;
   }
   .main__heading h1 {
     font-size: 3rem;
